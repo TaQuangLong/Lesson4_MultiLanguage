@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="project.quanglong.lesson4_multilanguage.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnFun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/have_fun" />
+
+    <Button
+        android:id="@+id/btnDo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/do_something" />
+
+
+    <Button
+        android:id="@+id/btnClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/click_here" />
+
+
+    <Button
+        android:id="@+id/btnSurprise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/surprise" />
+
+</LinearLayout>
